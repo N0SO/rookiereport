@@ -75,10 +75,10 @@ class rookieReport():
                     tagType='comment') 
                          
         d.add_unformated_text(\
-           """<h2 align='center'>{} Missouri QSO Party Rookie Report</h2>\n""".format(YEAR))
+           """<h2 align='center'>{} Missouri QSO Party Rookie Candidates Report</h2>\n""".format(YEAR))
 
         d.addTable(htmld, header=True, caption =\
-            """{} Rookie report</p> """.\
+            """{} Rookie Candidates Report</p> """.\
             format(self.args.location.upper()))
 
         d.closeBody()
